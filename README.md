@@ -1,11 +1,8 @@
 # LinuxGuide
 
-# Linux Guide
-
 # What is Unix?
 Unix comes before linux, so if you know a little bit, it will be great for you. Unix is an operating system whose development started in 1969 for multi-user, multi-tasking. Unix is not free and open source os. It can be only utilized by its copywriters. So linux came into the picture.
 E.g: SunOS, Solaris, SCO Unix, HP/UX.
-
 
 # What is Linux?
 
@@ -14,7 +11,6 @@ To understand simply, like Windows, Mac, Linux is an operating system \[OS\] bas
 It is free and open source means you can use it for free, view its source code. We can change the source code of linux and use it for personal as well as commercial purposes.
 
 E.g: Ubuntu, Arch Linux, Debian GNU etc.
-
 
 # Where is linux?
 - TV,
@@ -59,7 +55,6 @@ E.g: Ubuntu, Arch Linux, Debian GNU etc.
 
 # Are all linux based OS free?
 No, not all linux based OS are free. Enterprise level linux based operating systems are paid. E.g Red Hat is a paid OS, if we have a problem the Red Hat team will support and provide us a solution.
-
 
 
 # Basic Tour Of Ubuntu
