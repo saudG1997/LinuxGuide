@@ -7,9 +7,7 @@ E.g: SunOS, Solaris, SCO Unix, HP/UX.
 # What is Linux?
 
 To understand simply, like Windows, Mac, Linux is an operating system \[OS\] based on Linux Kernel. Operating systems lie between computer hardware and computer users, so that users can interact with computers easily.  It was developed by Linus Torvalds in 1991.
-
 It is free and open source means you can use it for free, view its source code. We can change the source code of linux and use it for personal as well as commercial purposes.
-
 E.g: Ubuntu, Arch Linux, Debian GNU etc.
 
 # Where is linux?
@@ -68,7 +66,7 @@ Background Change, Datetime Settings, Wifi, Bluetooth etc.
 | Path     | Content                             |
 | -------- | ----------------------------------- |
 | `/bin`   | Binaries (User)                     |
-| `/root`  | Files of root user 		                     |
+| `/root`  | Files of root user                  |
 | `/boot`  | Static boot loader files            |
 | `/etc`   | Host specific configs               |
 | `/lib`   | Shared libraries and kernel modules |
@@ -95,18 +93,18 @@ Background Change, Datetime Settings, Wifi, Bluetooth etc.
 
 **Basic Commands**
 
-| Command 	 | Description                                       |
-| ---------- | ------------------------------------------------- |
-| `whoami`	 | Print current user name                           |
-| `hostname` | Print current host name                           |
-| `date`	 | Print current date and time 						 |
-| `clear` 	 | Clear Screen (Clear contents in currently open terminal emulator) |
-| `users`	 | Print Currently logged in user/s 				 |
-| `reboot`	 | Restart your machine 							 |
-| `poweroff` | Shut down your machine 							 |
+| Command 	 | Description                                                                         |
+| ---------- | ------------------------------------------------------------------------------------|
+| `whoami`	 | Print current user name                                                             |
+| `hostname` | Print current host name                                                             |
+| `date`	 | Print current date and time 						                                   |
+| `clear` 	 | Clear Screen (Clear contents in currently open terminal emulator)                   |
+| `users`	 | Print Currently logged in user/s 				                                   |
+| `reboot`	 | Restart your machine 							                                   |
+| `poweroff` | Shut down your machine 							                                   |
 | `sudo`	 | Gives super user permission to your commands (similar to administrator in windows)  |
 
----
+---------------------------------------------------------------------------------------------------
 
 **File System Commands**
 
@@ -131,21 +129,20 @@ Background Change, Datetime Settings, Wifi, Bluetooth etc.
 | `cp`	  |	`sourcefile destination` | Copy file from source to destination 	 |
 | `cp`    | `-r`             | Copy dir                                          |
 | `mv`    | `sourcefile destination` | Move recursively (source to destination)	 |
-| `rmdir` | `-p`             | Remove dir and empty parents                      |
-| `rm`    | `file`           | Remove file |
-|		  | `-rf`            | Remove dir recursively, `-f` without confirmation |
-|		  | `ch*` 			 | Remove all files starting from ch 				 |
-|		  | `*.jpg` 		 | Remove all .jpg files 				 			 |
-| `find`  | `-iname pattern` | Search dir/file case-insensitive                  |
-|         | `-mmin n`        | Last modified n minutes ago                       |
-|         | `-mtime n`       | Last modified n days ago                          |
-|         | `-regex pattern` | Path matches pattern                              |
-|         | `-size n[kMG]`   | By file size (`-n` less than; `+n` greater than)  |
-|         | `! searchparams` | Invert search                                     |
+| `rmdir` | `-p`             | Remove dir and empty parents                                                                  |
+| `rm`    | `file`           | Remove file                                                                                   |
+|		  | `-rf`            | Remove dir recursively, `-f` without confirmation                                             |
+|		  | `ch*` 			 | Remove all files starting from ch 				                                             |
+|		  | `*.jpg` 		 | Remove all .jpg files 				 			                                             |
+| `find`  | `-iname pattern` | Search dir/file case-insensitive                                                              |
+|         | `-mmin n`        | Last modified n minutes ago                                                                   |
+|         | `-mtime n`       | Last modified n days ago                                                                      |
+|         | `-regex pattern` | Path matches pattern                                                                          |
+|         | `-size n[kMG]`   | By file size (`-n` less than; `+n` greater than)                                              |
+|         | `! searchparams` | Invert search                                                                                 |
 | `locate`| `file` 			 | find your file by name(faster than find) (Must run `sudo updatedb` before using this command) |
 
----
-
+-----------------------------------------------------------------------------------------------------------------------------
 **File Manipulation**
 
 | Command | Options 		| 		Description 								 |
