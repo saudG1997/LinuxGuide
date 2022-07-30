@@ -108,27 +108,28 @@ Background Change, Datetime Settings, Wifi, Bluetooth etc.
 
 **File System Commands**
 
-| Command | Options          | Description                                       |
-| ------- | ---------------- | ------------------------------------------------- |
-| `cd`    | `-`              | Navigate to last dir                              |
-| `cd`	  | `path to directory` | Navigate to the directory given by path 		 | 
-|         | `~`              | Navigate to home                                  |
-|         | `~username`      | Navigate to home of specified user                |
-|		  | `..` 			 | Nagivate one directory backward 					 |
-|		  | `../..` 		 | Nagivate two directory backward 					 |
-| `pwd`   |                  | Print working dir                                 |
-| `ls`    |                  | Print dir content                                 |
-|         | `-l`             | Format as list                                    |
-|         | `-a`             | Show hidden items (`-A` without `.` and `..`)     |
-|         | `-r`             | Invert order                                      |
-|         | `-R`             | Recurse                                           |
-|         | `-S`             | Sort by size                                      |
-|         | `-t`             | Sort by date modified                             |
-| `mkdir` | `dirname`        | Create dir 			                             |
-| `mkdir` | `-p`             | Create dir with parents                           |
-| `cp`	  |	`sourcefile destination` | Copy file from source to destination 	 |
-| `cp`    | `-r`             | Copy dir                                          |
-| `mv`    | `sourcefile destination` | Move recursively (source to destination)	 |
+-----------------------------------------------------------------------------------------------------------------------------|
+| Command | Options          | Description                                                                                   |
+| ------- | ---------------- | ----------------------------------------------------------------------------------------------|
+| `cd`    | `-`              | Navigate to last dir                                                                          |
+| `cd`	  | `path to directory` | Navigate to the directory given by path 		                                             | 
+|         | `~`              | Navigate to home                                                                              |
+|         | `~username`      | Navigate to home of specified user                                                            |
+|		  | `..` 			 | Nagivate one directory backward 					                                             |
+|		  | `../..` 		 | Nagivate two directory backward 					                                             |
+| `pwd`   |                  | Print working dir                                                                             |
+| `ls`    |                  | Print dir content                                                                             |
+|         | `-l`             | Format as list                                                                                |
+|         | `-a`             | Show hidden items (`-A` without `.` and `..`)                                                 |
+|         | `-r`             | Invert order                                                                                  |
+|         | `-R`             | Recurse                                                                                       |
+|         | `-S`             | Sort by size                                                                                  |
+|         | `-t`             | Sort by date modified                                                                         |
+| `mkdir` | `dirname`        | Create dir 			                                                                         |
+| `mkdir` | `-p`             | Create dir with parents                                                                       |
+| `cp`	  |	`sourcefile destination` | Copy file from source to destination 	                                             |
+| `cp`    | `-r`             | Copy dir                                                                                      |
+| `mv`    | `sourcefile destination` | Move recursively (source to destination)	                                             |
 | `rmdir` | `-p`             | Remove dir and empty parents                                                                  |
 | `rm`    | `file`           | Remove file                                                                                   |
 |		  | `-rf`            | Remove dir recursively, `-f` without confirmation                                             |
@@ -142,7 +143,7 @@ Background Change, Datetime Settings, Wifi, Bluetooth etc.
 |         | `! searchparams` | Invert search                                                                                 |
 | `locate`| `file` 			 | find your file by name(faster than find) (Must run `sudo updatedb` before using this command) |
 
------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------|
 **File Manipulation**
 
 | Command | Options 		| 		Description 								 |
