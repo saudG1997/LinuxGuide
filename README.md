@@ -107,7 +107,6 @@ Background Change, Datetime Settings, Wifi, Bluetooth etc.
 
 **File System Commands**
 
------------------------------------------------------------------------------------------------------------------------------|
 | Command | Options          | Description                                                                                   |
 | ------- | ---------------- | ----------------------------------------------------------------------------------------------|
 | `cd`    | `-`              | Navigate to last dir                                                                          |
@@ -142,7 +141,7 @@ Background Change, Datetime Settings, Wifi, Bluetooth etc.
 |         | `! searchparams` | Invert search                                                                                 |
 | `locate`| `file` 			 | find your file by name(faster than find) (Must run `sudo updatedb` before using this command) |
 
------------------------------------------------------------------------------------------------------------------------------|
+
 **File Manipulation**
 
 | Command | Options 		| 		Description 								 |
@@ -162,7 +161,6 @@ Background Change, Datetime Settings, Wifi, Bluetooth etc.
 |		  |	`-w`			| Count Words in files								 |
 |		  |	`-c`			| Count Characters in files							 |
 
----
 
 ## Stream redirection
 
