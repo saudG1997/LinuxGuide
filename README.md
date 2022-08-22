@@ -104,7 +104,6 @@ Background Change, Datetime Settings, Wifi, Bluetooth etc.
 | `poweroff` | Shut down your machine 							                                   |
 | `sudo`	 | Gives super user permission to your commands (similar to administrator in windows)  |
 
----------------------------------------------------------------------------------------------------
 
 **File System Commands**
 
