@@ -1,11 +1,9 @@
 # LinuxGuide
-
 # What is Unix?
 Unix comes before linux, so if you know a little bit, it will be great for you. Unix is an operating system whose development started in 1969 for multi-user, multi-tasking. Unix is not free and open source os. It can be only utilized by its copywriters. So linux came into the picture.
 E.g: SunOS, Solaris, SCO Unix, HP/UX.
 
 # What is Linux?
-
 To understand simply, like Windows, Mac, Linux is an operating system \[OS\] based on Linux Kernel. Operating systems lie between computer hardware and computer users, so that users can interact with computers easily.  It was developed by Linus Torvalds in 1991.
 It is free and open source means you can use it for free, view its source code. We can change the source code of linux and use it for personal as well as commercial purposes.
 E.g: Ubuntu, Arch Linux, Debian GNU etc.
@@ -42,14 +40,12 @@ E.g: Ubuntu, Arch Linux, Debian GNU etc.
 - Linux is Secure than windows.
 - Linux is Fully Customizable but Windows is not.
 
-
 # Points to Remember
 - Folder in linux called directory.
 - Linux is a case sensitive System. A is different than a.
 - Avoid using filename as space.
 - Super Admin is also called root who can do anything.
 - Software is called a package.
-
 
 # Are all linux based OS free?
 No, not all linux based OS are free. Enterprise level linux based operating systems are paid. E.g Red Hat is a paid OS, if we have a problem the Red Hat team will support and provide us a solution.
@@ -84,7 +80,6 @@ Background Change, Datetime Settings, Wifi, Bluetooth etc.
 ![linux file system explained](Assets/Images/linux-filesystem.png)
 
 ---
-
 
 # Everyday Commands
 *note: There exists a man(manual) page for almost all commands you use. IF you are curious to know more about commands you can simply type `man command` and see it's details and usage description*
